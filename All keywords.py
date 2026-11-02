@@ -12,19 +12,19 @@ class myfunctions:
        # await a.sleep(2)
     @staticmethod
     async def hello():#doesn't function line by line; works together due to async
-        a="Hello"
+        a_var="Hello"
         b="Hello my"
-        if a and b:
+        if a_var and b:
             print("Input is same or true")
         else: #this else is not indentated
          print("Input is different or false")
 #prints true but if a and b were hello and hello my, it would be false
         c=int(input()) #has to be int(input()) not input(), coz assert is initialised for an int input
         assert -1<c<100 #stops program if false
-        del a,b,c #saves space
+        del a_var,b,c #saves space
 async def main():
      await myfunctions.fetch_data_from_internet()
-     myfunctions.hello()
+     await myfunctions.hello()
 #a.run(fetch_data_from_internet())# can't take 2 functions
 #a.run(keywords())
 a.run(main())
