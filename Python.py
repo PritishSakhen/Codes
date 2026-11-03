@@ -74,3 +74,5 @@ s=str(input("Enter a string: "))
 s1=s.upper()
 s2=s.lower()
 print(f"Uppercase: {s1}, Lowercase: {s2}")
+#---‐----------------‐-------------
+#Dunder methods, objects, instances
