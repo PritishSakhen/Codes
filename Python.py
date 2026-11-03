@@ -71,6 +71,7 @@ print(
     flush=True                      # 4. Forcing an immediate buffer flush to the stream
 )
 s=str(input("Enter a string: "))
+s3=s.split()
 s1=s.upper()
 s2=s.lower()
 print(f"Uppercase: {s1}, Lowercase: {s2}")
