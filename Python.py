@@ -1,4 +1,4 @@
-#type copilot in terminal
+#type copilot in terminal, check offical documentation for entire guide
 import keyword
 import asyncio as a
 import sys#1-as
